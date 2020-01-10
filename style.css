@@ -1,0 +1,213 @@
+/* Utilities */
+    .left-content {
+        background-color: #FFF;
+        height: 100vh;
+    }
+    .right-content {
+        background-color: #DED3BC;
+        height: 100vh;
+    }
+    .row, .col {
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 500px;
+    }
+    /* .inner-web {
+        position: absolute;
+        width: 100%;
+        top: 0;
+    }
+    .inner-width {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    */
+    @font-face {
+        font-family: 'trajanPro';
+        src: url('trajanpro.ttf') format('truetype');
+    }
+    @font-face {
+        font-family: 'latoregular';
+        src: url('latoregular.tff') format('truetype');
+    }
+/* End Utilities */
+/* Left Content */
+    /* Navbar */
+    .navbar {
+        padding: 0;
+        margin: 0;
+    }
+    .navbar .navbar-brand {
+        font-family: 'trajanPro', serif;
+        font-size: 28px;
+    }
+    .navbar .nav-link {
+        margin: 0 10px;
+        font-family: 'latoregular', sans-serif;
+        font-size: 14px;
+        transition: .3s ease-in;
+        color: #4F3623 !important;
+    }
+    .navbar .menu-login {
+        display: none;
+    }
+    /* End Navbar */
+    /* Title */
+    .title {
+        margin-top: 220px;
+    }
+    .left-content p {
+        font-family: 'trajanPro', serif;
+        font-size: 18px;
+        color: #AAAAAA;
+        margin: 0;
+    }
+    .left-content h1 {
+        font-family: 'trajanPro', sans-serif;
+        font-size: 72px;
+        margin: 0;
+        color: #1E1107;
+    }
+    .left-content span {
+        font-family: 'latoregular', sans-serif;
+        font-size: 16px;
+        color: #cacaca;
+        letter-spacing: .5px;
+        line-height: 22px;
+    } 
+    /* End Title */
+/* End Left Content */
+/* Right Content */
+    .model {
+        padding-top: 130px;
+        max-width: 500px;
+        /* background-color: rgba(0, 0, 0, .3); */
+    }
+    .login-label {
+        float: right;
+        height: 52px;
+        text-decoration: none;
+        transition: .3s ease-in;
+        line-height: 52px;
+        font-family: 'latoregular', sans-serif;
+        font-size: 14px;
+        transition: .3s ease-in;
+        color: #4F3623;
+    }
+    .login-label:hover {
+        font-size: 15px;
+        color: #000;
+    }
+    .model .images {
+        width: 300px;
+        height: 340px;
+        background-color: rosybrown;
+        margin: 0 auto;
+    }
+    .model .images p {
+        font-family: 'trajanPro', sans-serif;
+        font-size: 14px;
+        margin-top: 6px;
+        transition: .3s ease-in;
+        color: #4F3623;
+    }
+    .model .sosmed {
+        display: inline-block;
+        margin-right: 10px;
+        width: 30px;
+        padding-bottom: 4px;
+        border-bottom: 2px solid rgba(0,0,0,.0);
+        transition: .3s ease-in;
+    }
+    .model .sosmed:hover {
+        border-bottom: 2px solid #4F3623;
+    }
+/* End Right Content */
+/* Responsive */
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    /* .navbar-collapse {
+        background-color: #FFF;
+    }
+    .navbar .nav-link {
+        margin: 0;
+    }*/
+    .left-content{
+        height: 50vh;
+    }
+    .right-content {
+        height: 74vh;
+    }
+    .navbar .nav-link:hover {
+        margin-left: -2px;
+        background-color: #DED3BC;
+        padding-left: 4px;
+    }
+    .navbar .menu-login {
+        display: inline-block;
+    }
+    .title {
+        margin-top: 30px;
+    }
+    .left-content p {
+        font-size: 16px;
+    }
+    .left-content h1 {
+        font-size: 52px;
+    }
+    .left-content span {
+        font-size: 14px;
+        letter-spacing: .5px;
+        line-height: 22px;
+    } 
+    .model {
+        padding-top: 30px;
+    }
+    .login-label {
+        display: none;
+    }
+}
+/* Responsive Tablet */
+@media screen and (min-width: 601px) and (max-width: 1080px) {
+    /* .navbar-collapse {
+        background-color: #FFF;
+    }
+    .navbar .nav-link {
+        margin: 0;
+    }*/
+    .left-content{
+        height: 44vh;
+    }
+    .right-content {
+        height: 70vh;
+    }
+    .navbar .nav-link:hover {
+        margin-left: -2px;
+        background-color: #DED3BC;
+        padding-left: 4px;
+    }
+    .navbar .menu-login {
+        display: inline-block;
+    }
+    .title {
+        margin-top: 30px;
+    }
+    .left-content p {
+        font-size: 16px;
+    }
+    .left-content h1 {
+        font-size: 52px;
+    }
+    .left-content span {
+        font-size: 14px;
+        letter-spacing: .5px;
+        line-height: 22px;
+    } 
+    .model {
+        padding-top: 30px;
+    }
+    .login-label {
+        display: none;
+    }
+}
