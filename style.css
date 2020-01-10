@@ -37,7 +37,7 @@
     /* Navbar */
     .navbar {
         padding: 0;
-        margin: 0;
+        margin: 10px 0;
     }
     .navbar .navbar-brand {
         font-family: 'trajanPro', serif;
@@ -88,6 +88,7 @@
     .login-label {
         float: right;
         height: 52px;
+        margin-top: 10px;
         text-decoration: none;
         transition: .3s ease-in;
         line-height: 52px;
@@ -139,6 +140,9 @@
     .right-content {
         height: 74vh;
     }
+    .navbar .navbar-brand {
+        font-size: 20px;
+    }
     .navbar .nav-link:hover {
         margin-left: -2px;
         background-color: #DED3BC;
@@ -181,6 +185,9 @@
     }
     .right-content {
         height: 70vh;
+    }
+    .navbar .navbar-brand {
+        font-size: 22px;
     }
     .navbar .nav-link:hover {
         margin-left: -2px;
